@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi</title>
+</head>
+<body>
+    <!-- Div container untuk mengelompokkan seluruh konten halaman -->
+    <div class="container">
+        <h1>Profil Pribadi</h1>
+        
+        <!-- Div untuk section profil yang berisi foto dan video -->
+        <div class="profile-section">
+            <!-- Div untuk foto profil -->
+            <div>
+                <!-- Tag img untuk menampilkan gambar profil (menggunakan placeholder) -->
+                <img src="Foto/Foto_1.jpg" alt="Foto Pribadi" class="photo-placeholder">
+            </div>
+            
+            <!-- Div untuk video perkenalan -->
+            <div>
+                <!-- Tag video untuk menampilkan video perkenalan -->
+                <video width="300" height="200" controls class="video-placeholder">
+                    <source src="sample-video.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung tag video.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Div container untuk section tentang saya -->
+    <div class="container">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya Andhika Bima Pramudito dengan NIM 103032330148 kelas IT-47-04 dari prodi S1 Teknologi Informasi Fakultas Informatika.</p>
+    </div>
+
+    <!-- Div container untuk section keterampilan -->
+    <div class="container">
+        <h2>Keterampilan</h2>
+        <!-- Tag table untuk menampilkan data keterampilan dalam format tabel -->
+        <table>
+            <!-- Tag th untuk header tabel -->
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <!-- Tag tr untuk baris tabel -->
+            <tr>
+                <!-- Tag td untuk sel data dalam tabel -->
+                <td>HTML/CSS</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Div container untuk section kontak -->
+    <div class="container">
+        <h2>Hubungi Saya</h2>
+        <!-- Tag form untuk membuat formulir kontak -->
+        <form action="#" method="post">
+            <label for="nama">Nama:</label>
+            <!-- Tag input untuk field nama dengan type text -->
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="email">Email:</label>
+            <!-- Tag input untuk field email dengan type email -->
+            <input type="email" id="email" name="email" required>
+            
+            <label for="pesan">Pesan:</label>
+            <!-- Tag textarea untuk field pesan yang memungkinkan input multi-line -->
+            <textarea id="pesan" name="pesan" rows="4" required></textarea>
+            
+            <!-- Tag button untuk tombol submit form -->
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+
+    <!-- Div container untuk section media sosial -->
+    <div class="container">
+        <h2>Media Sosial:</h2>
+        <div class="social-links">
+            <!-- Tag a (anchor) untuk membuat link ke media sosial -->
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+            <a href="https://github.com" target="_blank">GitHub</a> |
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+        </div>
+    </div>
+
+</body>
+</html>
